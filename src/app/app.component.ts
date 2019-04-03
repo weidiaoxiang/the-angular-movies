@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'the-angular-movies';
+  navLinks = [
+    { path: 'popular', label: 'POPULAR'},
+    { path: 'top', label: 'TOP RATED' }
+  ];
 }
